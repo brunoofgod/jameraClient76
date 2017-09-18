@@ -1,0 +1,10 @@
+Module
+  name: client_background
+  description: Handles the background of the login screen
+  author: brunoofgod
+  website: www.jamera.com.br
+  sandboxed: true
+  scripts: [ background ]
+  dependencies: [ client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()
